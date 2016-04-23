@@ -1,0 +1,6 @@
+(defun element-at (list n)
+  (if (> n 0)
+    (print n)
+    (element-at ('(rest list) '(- n 1)))
+  )
+)

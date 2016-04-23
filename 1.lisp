@@ -1,0 +1,7 @@
+(defun my-last (list)
+  (if (cdr list)
+    (my-last (cdr list))
+    (print list)
+  )
+)
+(my-last '(a b c d))
