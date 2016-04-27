@@ -1,0 +1,6 @@
+(defun greet ()
+  (print "please type ur name:")
+  (let ((name (read)))
+    (print `(hello ,name noice to meet you))
+  )
+)
