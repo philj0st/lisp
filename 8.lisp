@@ -18,3 +18,4 @@
     )
   )
 )
+(print (unique '(a b c c d e e e f g)))
